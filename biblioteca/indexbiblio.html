@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="/biblioteca/style.css">
+    <link rel="shortcut icon" href="/favicon/icons8-estante-de-livros-100.png" type="image/x-icon">
+</head>
+<body>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+    <nav class="nav">
+        <img src="/imagens/livros.png" alt="livros" height="50px">
+        <button class="home" href="/bbmenu/indexmenu.html" >Home</button>
+        
+    </nav><br>
+
+    <h1>Biblioteca</h1>
+    
+    
+    <div class="conteiner">
+        <div class="item1">
+            <form class="form"  action="/action_page.php">
+
+                <h2>Cadastrar Livros</h2>
+
+                <div class="book">
+                <label for="book">Livro:</label><br>
+                <input type="text" id="book" required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br>
+                </div>
+
+                <div class="author">
+                <label for="author">Autor:</label><br>
+                <input type="text" id="author"  required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br>
+                </div>
+                
+                <div class="publishingcompany">
+                <label for="publishingcompany">Editora:</label><br>
+                <input type="text" id="publishingcompany"  required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br>
+                </div>
+
+                <div class="codebook">
+                <label for="codebook">Código do Livro:</label><br>
+                <input type="text" id="codebook"  required="required"><br><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br><br>
+                </div>
+
+                <button class="register" href ="/">Cadastrar </button> <!--linkar para banco de dados-->
+                
+            </form>
+            
+            
+        </div>
+
+        <div class="item2">
+            <form class="form"  action="/action_page.php">
+                <h2>Pesquisar Livros</h2>
+
+                <div class="book">
+                <label for="book">Livro:</label><br>
+                <input type="text" id="book" required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br>
+                </div>
+                
+
+                <div class="author">
+                <label for="author">Autor:</label><br>
+                <output type="text" id="author" ><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br>
+                </div>
+
+                <div class="publishingcompany">
+                <label for="publishingcompany">Editora:</label><br>
+                <output type="text" id="publishingcompany" ><br>
+                <br><br>
+                </div>
+                
+                <div class="codebook">
+                <label for="codebook">Código do Livro:</label><br>
+                <output type="text" id="codebook" ><br>
+                <br><br>
+                </div>
+
+               
+
+                <button class="search" href ="/">Pesquisar </button><!--linkar para banco de dados-->
+                <button class="delete" href="/">Excluir</button><!--linkar para banco de dados-->
+                
+            </form>
+            
+        </div>
+    </div>
+
+            <br>
+            <br>
+            
+           
+</body>
+</html>

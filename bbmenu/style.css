@@ -1,0 +1,127 @@
+body{
+    background:url(../imagens/post.webp);
+    background-color:rgb(242, 219, 165);    
+    margin: 0;
+    padding: 0;
+}
+
+.sair{
+
+    background-color: yellow;
+    text-align: end;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-left: 1380px;
+    position: absolute;
+    margin-top: 10px;
+    
+}
+.nav{
+    background-color: blue;
+    height: 60px;
+}
+
+
+
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-size: xxx-large;
+    font: bold;
+    
+}
+
+.conteiner1{
+
+    position: absolute;
+    top: 300px;
+    margin-left: 400px;
+    
+}
+
+.conteiner2{
+
+    position: absolute;
+    top: 300px;
+    margin-left: 850px;
+}
+
+.conteiner3{
+
+    position: absolute;
+    top: 600px;
+    margin-left: 350px;
+}
+
+.conteiner4{
+
+    position: absolute;
+    top: 600px;
+    margin-left: 850px;
+}
+
+.library{
+    background-color:blue;
+    text-decoration: none;
+    margin-right: 6px;
+    padding: 25px 30px;
+    color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: x-large;
+    
+   
+    
+
+}
+
+.collectioncontrol{
+    background-color: blue;
+    text-decoration: none;
+    margin-right: 6px;
+    padding: 25px 30px;
+    color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: x-large;
+
+}
+
+.studentregistration{
+    background-color: blue;
+    text-decoration: none;
+    margin-right: 6px;
+    padding: 25px 30px;
+    color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: x-large;
+
+}
+
+.generalinformation{
+    background-color: blue;
+    text-decoration: none;
+    margin-right: 6px;
+    padding: 25px 30px;
+    color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: x-large;
+
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcervoLegal</title>
+    <link rel="stylesheet" href="/alogin/style.css">
+    <link rel="shortcut icon" href="/favicon/icons8-estante-de-livros-100.png" type="image/x-icon">
+</head>
+<body>
+
+
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+
+    
+
+
+    <div class="conteiner">
+        <div id="item1">
+            <h1> AcervoLegal <br><br> A Sua Biblioteca Digital</h1>
+            <img class="img1" src="/imagens/livros.png" alt="livros">
+            
+        </div>
+     
+    
+    
+        <div id="item2">
+            <img class="img2" src="/imagens/usuario.png" alt="usuario">
+            <form id="form" class="form">  <!--action="/action_page.php"-->
+                <div class="form-control">
+                    <label for="username">Usuário:</label><br>
+                    <input type="text" id="username" required="required">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    
+
+                </div>
+
+                <div class="form-control">
+                    <label for="email">E-mail:</label><br>
+                    <input type="text" id="email" required="required">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    
+
+                </div>
+
+
+                <div class="form-control">
+                    <label for="password">Senha:</label><br>
+                    <input type="text" id="password" required="required">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    
+
+                </div>
+
+
+                <div class="form-control">
+                    <label for="password-confirmation">Confirmação de Senha:</label><br>
+                    <input type="text" id="password-confirmation" required="required">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    
+
+                </div> <br><br>
+
+
+                
+
+
+                <button class="register" href ="/alogin/index.html">Cadastrar </button>
+                <button class="login" href="/bbmenu/indexmenu.html">Login</button>
+
+                
+            </form>
+        </div>
+    </div>
+    
+
+    
+    
+</body>
+</html>
+
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Acervo</title>
+    <link rel="stylesheet" href="/cacontroleacervo/style.css">
+    <link rel="shortcut icon" href="/favicon/icons8-estante-de-livros-100.png" type="image/x-icon">
+</head>
+<body>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+
+    <nav class="nav">
+        <img src="/imagens/livros.png" alt="livros" height="50px">
+        <button class="home" href="/bbmenu/indexmenu.html" >Home</button>
+    </nav>
+
+
+    <h1>Controle do Acervo</h1>
+    <br>
+    
+    <div class="conteiner">
+
+        <div class="item">
+            <form class="form"  action="/action_page.php">
+
+                <h2>Empréstimos</h2>
+
+                <label for="book">Livro:</label><br>
+                <input type="text" id="book" required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i> <br>
+
+                <label for="author">Autor:</label><br>
+                <input type="text" id="author" required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br><br>
+
+                <label for="publishingcompany">Editora:</label><br>
+                <input type="text" id="publishingcompany" required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br><br>
+
+                <label for="codebook">Código do Livro:</label><br>
+                <input type="text" id="codebook" required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br><br>
+
+                <label for="student">Aluno:</label><br>
+                <input type="text" id="student" required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br><br>
+
+                <label for="RA">RA:</label><br>
+                <input type="text" id="RA" required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br><br>
+
+                <label for="classstudent">Turma:</label><br>
+                <input type="text" id="classstudent" required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br><br>
+
+                <label for="loandate">Data do Empréstimo:</label><br>
+                <input type="date" id="loandate" required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br><br>
+
+                <label for="deliverydate">Data Prevista de Devolução:</label><br>
+                <input type="date" id="deliverydate" required="required"><br>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i><br><br>
+
+                
+                <button class="submit" href="/">Emprestar</button>
+            </form>
+            
+            
+        </div>
+
+        <br><br>
+
+        <div class="item">
+            <form class="form"  action="/action_page.php">
+
+                <h2>Devolução</h2>
+
+                <label for="codebook">Código do Livro:</label><br>
+                <input type="text" id="codebook" ><br><br>
+
+                <label for="book">Livro:</label><br>
+                <output type="text" id="book" ><br><br>
+
+                <label for="student">Aluno:</label><br>
+                <output type="text" id="student" ><br><br>
+
+                <label for="RA">RA:</label><br>
+                <output type="text" id="RA" ><br><br>
+
+                <label for="deliverydate">Data da Devolução:</label><br>
+                <input type="date" id="deliverydate" ><br><br>
+
+                <button class="delivery" href ="/">Devolver </button>
+            </form>
+        </div>
+
+        <br><br>
+
+        <div class="item">
+            <form class="form"  action="/action_page.php">
+
+                <h2>Livros em Atraso</h2>
+
+                <label for="classstudent">Turma:</label><br>
+                <input type="text" id="classstudent" ><br><br>
+
+
+                <label for="codebook">Código do Livro:</label><br>
+                <output type="text" id="codebook" ><br><br>
+
+
+                <label for="book">Livro:</label><br>
+                <output type="text" id="book" ><br><br>
+
+                
+                <label for="student">Aluno:</label><br>
+                <output type="text" id="student" ><br><br>
+
+                
+                <label for="deliverydate">Data da Devolução:</label><br>
+                <output type="date" id="deliverydate" ><br><br>
+
+                
+                <button class="search" href ="/">Pesquisar </button>
+                
+            </form>
+            
+            
+        </div>
+
+    </div>
+    
+    <br><br>
+    
+
+
+    
+</body>
+</html>

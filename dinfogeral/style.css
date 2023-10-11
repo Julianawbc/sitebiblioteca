@@ -1,0 +1,79 @@
+body{
+    background-color:rgb(163, 200, 249);
+    margin: 0;
+    
+}
+
+
+.nav{
+    background-color: blue;
+    height: 60px;
+   
+}
+
+.home{
+
+    background-color: yellow;
+    text-align: end;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-left: 1380px;
+    position: absolute;
+    margin-top: 10px;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+
+.item{
+    background-color: rgb(242, 230, 150);
+    padding: 150px 150px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px; 
+    border: 2px solid;
+    border-radius: 4px;
+    display: grid;
+    margin-bottom: 15px;
+    font-size: larger;
+    font-family: cursive;
+    
+
+}
+
+input{
+    width: 200px;
+    height:30px;
+    margin-left: 200px;
+}
+
+label{
+    font-family: cursive;
+    font-size: x-large;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+
+.search{
+    background-color: yellow;
+    text-decoration: none;
+    margin-right: 6px;
+    padding: 5px 10px;
+    color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: x-large;
+    font-family: cursive;
+}
